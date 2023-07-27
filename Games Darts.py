@@ -42,5 +42,8 @@ sorta()
 #Выводим 3 лучших броска
 listw = tk.Label(window,text="Лучшие попытки"+str(num[0:3]))
 listw.place(x=200, y=200, anchor="center")
+print("Пора спать")
+
+
 
 window.mainloop()
