@@ -3,7 +3,7 @@ import time
 import random
 
 #Перечисление возможных очков
-x1 = [i for i in range(1, 21)] + [50]  # Номинальные очки
+x1 = [i for i in range(1, 21)] + [50] + [25]  # Номинальные очки
 x2 = [i*2 for i in range(1, 21)] # Удвоенные очки
 x3 = [i*3 for i in range(1, 21)] # Утроенные очки
 score = x1+x2+x3 #Все очки.
@@ -42,8 +42,5 @@ sorta()
 #Выводим 3 лучших броска
 listw = tk.Label(window,text="Лучшие попытки"+str(num[0:3]))
 listw.place(x=200, y=200, anchor="center")
-print("Пора спать")
-
-
 
 window.mainloop()
