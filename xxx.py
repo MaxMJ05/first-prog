@@ -19,6 +19,8 @@ while stop != "Всё" :
     if proverka == "Нет":
         break
 
-first = people[0]
-key = list(first.values())[0]
-print(key)
+
+for xx in people:
+    first = xx
+    qq = list(xx.values())[0]
+    print(qq)
